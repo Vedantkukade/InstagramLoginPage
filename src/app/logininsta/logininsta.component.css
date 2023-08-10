@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Pacifico&family=Playfair+Display&family=Rochester&display=swap');
+.parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    position: relative;
+}
+
+.mobile{
+    margin-right: 60px;
+}
+.form-group{
+    position: relative;
+}
+::placeholder{
+    font-size:14px;
+}
+
+.form-group span{
+    position: absolute;
+    bottom: 0;
+    color: red;
+    font-size: small;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.loginpage{
+    display: block;
+  align-items: center;
+  
+  width: 350px;
+}
+
+.right-up{
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    margin-bottom: 10px;
+}
+
+.insta{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    justify-content: center;
+
+}
+.insta h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Rochester', cursive;
+    font-weight: bold;
+    font-size:50px;
+}
+
+.sign{
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    padding: 2px;
+    justify-content: center;
+    
+}
+.sign p{
+    padding-top: 10px;
+    padding-left: 70px;
+    font-size:14px;
+}
+.sign p a{
+    text-decoration: none;
+    color:rgba(0, 0, 255, 0.723);
+    font-weight:700;
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom:20px;
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.336);
+   
+}
+
+.form-control{
+    background-color: rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.336);
+    border-radius: 0px;
+}
+
+.line{
+    display: flex;
+   
+}
+.line p{
+    font-size: small;
+    color: rgba(0, 0, 0, 0.549);
+}
+.one{
+    width: 80px;
+    height: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.218);
+    margin-left: 75px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.two{
+    width: 80px;
+    height: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.218);
+    margin-right: 75px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.face p{
+    
+   
+    padding-left: 100px;
+    color:rgba(0, 0, 139, 0.704);
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+.face p i{
+    padding-right: 10px;
+    width: 25px;
+    height: 10px;
+}
+.logos{
+    display:flex;
+    padding: 10px;
+}
+
+.pass{
+    padding-left: 110px;
+    padding-bottom: 20px;
+    
+}
+.img{
+    width: 400px;
+    height: 500px;
+    border: 1px solid white;
+    background-image: url(../../assets/instagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.pass a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.689);
+    font-size: small;
+}
+.logos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+    display: flex;
+   
+}
+.google{
+
+    width:140px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-right:20px ;
+    background-image: url(../../assets/gstore.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.microsoft{
+
+    width:140px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-image: url(../../assets/microsoft.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer{
+    display: flex;
+    position: absolute;
+    /* left: 0;
+    bottom: 0; */
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.lists ul{
+    display: flex;
+    flex-direction: row;
+    padding-left: 330px;
+}
+.lists ul li{
+    list-style-type: none;
+    padding-right: 16px;
+    font-size: 13px;
+}
+.lists ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.74);
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width:1220px){
+
+    .parent{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    .loginpage{
+        width: auto;
+    }
+    .footer{
+        display: block;
+    }
+    .lists ul {
+        display: flex;
+        flex-direction: column;
+        margin-right:350px ;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .footer{
+        display: none;
+        
+    }
+}
